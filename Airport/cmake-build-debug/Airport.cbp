@@ -80,7 +80,22 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/gyarmatip/Documents/Uni/Semesters/I./PR1-Programmierung-1/klausurs-vorbereitung/pr1-altklausuren/Airport/category.h">
+			<Option target="Airport"/>
+		</Unit>
+		<Unit filename="/Users/gyarmatip/Documents/Uni/Semesters/I./PR1-Programmierung-1/klausurs-vorbereitung/pr1-altklausuren/Airport/flight.cpp">
+			<Option target="Airport"/>
+		</Unit>
+		<Unit filename="/Users/gyarmatip/Documents/Uni/Semesters/I./PR1-Programmierung-1/klausurs-vorbereitung/pr1-altklausuren/Airport/flight.h">
+			<Option target="Airport"/>
+		</Unit>
 		<Unit filename="/Users/gyarmatip/Documents/Uni/Semesters/I./PR1-Programmierung-1/klausurs-vorbereitung/pr1-altklausuren/Airport/main.cpp">
+			<Option target="Airport"/>
+		</Unit>
+		<Unit filename="/Users/gyarmatip/Documents/Uni/Semesters/I./PR1-Programmierung-1/klausurs-vorbereitung/pr1-altklausuren/Airport/passenger.cpp">
+			<Option target="Airport"/>
+		</Unit>
+		<Unit filename="/Users/gyarmatip/Documents/Uni/Semesters/I./PR1-Programmierung-1/klausurs-vorbereitung/pr1-altklausuren/Airport/passenger.h">
 			<Option target="Airport"/>
 		</Unit>
 		<Unit filename="/Users/gyarmatip/Documents/Uni/Semesters/I./PR1-Programmierung-1/klausurs-vorbereitung/pr1-altklausuren/Airport/CMakeLists.txt">

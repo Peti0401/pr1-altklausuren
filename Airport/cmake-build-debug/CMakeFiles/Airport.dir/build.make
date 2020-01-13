@@ -70,17 +70,47 @@ CMakeFiles/Airport.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Airport.dir/main.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/gyarmatip/Documents/Uni/Semesters/I./PR1-Programmierung-1/klausurs-vorbereitung/pr1-altklausuren/Airport/main.cpp -o CMakeFiles/Airport.dir/main.cpp.s
 
+CMakeFiles/Airport.dir/flight.cpp.o: CMakeFiles/Airport.dir/flags.make
+CMakeFiles/Airport.dir/flight.cpp.o: ../flight.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gyarmatip/Documents/Uni/Semesters/I./PR1-Programmierung-1/klausurs-vorbereitung/pr1-altklausuren/Airport/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Airport.dir/flight.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Airport.dir/flight.cpp.o -c /Users/gyarmatip/Documents/Uni/Semesters/I./PR1-Programmierung-1/klausurs-vorbereitung/pr1-altklausuren/Airport/flight.cpp
+
+CMakeFiles/Airport.dir/flight.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Airport.dir/flight.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/gyarmatip/Documents/Uni/Semesters/I./PR1-Programmierung-1/klausurs-vorbereitung/pr1-altklausuren/Airport/flight.cpp > CMakeFiles/Airport.dir/flight.cpp.i
+
+CMakeFiles/Airport.dir/flight.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Airport.dir/flight.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/gyarmatip/Documents/Uni/Semesters/I./PR1-Programmierung-1/klausurs-vorbereitung/pr1-altklausuren/Airport/flight.cpp -o CMakeFiles/Airport.dir/flight.cpp.s
+
+CMakeFiles/Airport.dir/passenger.cpp.o: CMakeFiles/Airport.dir/flags.make
+CMakeFiles/Airport.dir/passenger.cpp.o: ../passenger.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gyarmatip/Documents/Uni/Semesters/I./PR1-Programmierung-1/klausurs-vorbereitung/pr1-altklausuren/Airport/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Airport.dir/passenger.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Airport.dir/passenger.cpp.o -c /Users/gyarmatip/Documents/Uni/Semesters/I./PR1-Programmierung-1/klausurs-vorbereitung/pr1-altklausuren/Airport/passenger.cpp
+
+CMakeFiles/Airport.dir/passenger.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Airport.dir/passenger.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/gyarmatip/Documents/Uni/Semesters/I./PR1-Programmierung-1/klausurs-vorbereitung/pr1-altklausuren/Airport/passenger.cpp > CMakeFiles/Airport.dir/passenger.cpp.i
+
+CMakeFiles/Airport.dir/passenger.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Airport.dir/passenger.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/gyarmatip/Documents/Uni/Semesters/I./PR1-Programmierung-1/klausurs-vorbereitung/pr1-altklausuren/Airport/passenger.cpp -o CMakeFiles/Airport.dir/passenger.cpp.s
+
 # Object files for target Airport
 Airport_OBJECTS = \
-"CMakeFiles/Airport.dir/main.cpp.o"
+"CMakeFiles/Airport.dir/main.cpp.o" \
+"CMakeFiles/Airport.dir/flight.cpp.o" \
+"CMakeFiles/Airport.dir/passenger.cpp.o"
 
 # External object files for target Airport
 Airport_EXTERNAL_OBJECTS =
 
 Airport: CMakeFiles/Airport.dir/main.cpp.o
+Airport: CMakeFiles/Airport.dir/flight.cpp.o
+Airport: CMakeFiles/Airport.dir/passenger.cpp.o
 Airport: CMakeFiles/Airport.dir/build.make
 Airport: CMakeFiles/Airport.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/gyarmatip/Documents/Uni/Semesters/I./PR1-Programmierung-1/klausurs-vorbereitung/pr1-altklausuren/Airport/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Airport"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/gyarmatip/Documents/Uni/Semesters/I./PR1-Programmierung-1/klausurs-vorbereitung/pr1-altklausuren/Airport/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Airport"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Airport.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -1,7 +1,9 @@
 file(REMOVE_RECURSE
   "Airport"
   "Airport.pdb"
+  "CMakeFiles/Airport.dir/flight.cpp.o"
   "CMakeFiles/Airport.dir/main.cpp.o"
+  "CMakeFiles/Airport.dir/passenger.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

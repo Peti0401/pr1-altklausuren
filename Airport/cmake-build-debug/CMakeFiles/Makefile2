@@ -74,12 +74,12 @@ preinstall:
 CMakeFiles/Airport.dir/all:
 	$(MAKE) -f CMakeFiles/Airport.dir/build.make CMakeFiles/Airport.dir/depend
 	$(MAKE) -f CMakeFiles/Airport.dir/build.make CMakeFiles/Airport.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/gyarmatip/Documents/Uni/Semesters/I./PR1-Programmierung-1/klausurs-vorbereitung/pr1-altklausuren/Airport/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target Airport"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/gyarmatip/Documents/Uni/Semesters/I./PR1-Programmierung-1/klausurs-vorbereitung/pr1-altklausuren/Airport/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4 "Built target Airport"
 .PHONY : CMakeFiles/Airport.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Airport.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/gyarmatip/Documents/Uni/Semesters/I./PR1-Programmierung-1/klausurs-vorbereitung/pr1-altklausuren/Airport/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/gyarmatip/Documents/Uni/Semesters/I./PR1-Programmierung-1/klausurs-vorbereitung/pr1-altklausuren/Airport/cmake-build-debug/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Airport.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/gyarmatip/Documents/Uni/Semesters/I./PR1-Programmierung-1/klausurs-vorbereitung/pr1-altklausuren/Airport/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/Airport.dir/rule

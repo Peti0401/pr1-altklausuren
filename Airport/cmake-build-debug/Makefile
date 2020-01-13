@@ -123,6 +123,33 @@ Airport/fast:
 	$(MAKE) -f CMakeFiles/Airport.dir/build.make CMakeFiles/Airport.dir/build
 .PHONY : Airport/fast
 
+flight.o: flight.cpp.o
+
+.PHONY : flight.o
+
+# target to build an object file
+flight.cpp.o:
+	$(MAKE) -f CMakeFiles/Airport.dir/build.make CMakeFiles/Airport.dir/flight.cpp.o
+.PHONY : flight.cpp.o
+
+flight.i: flight.cpp.i
+
+.PHONY : flight.i
+
+# target to preprocess a source file
+flight.cpp.i:
+	$(MAKE) -f CMakeFiles/Airport.dir/build.make CMakeFiles/Airport.dir/flight.cpp.i
+.PHONY : flight.cpp.i
+
+flight.s: flight.cpp.s
+
+.PHONY : flight.s
+
+# target to generate assembly for a file
+flight.cpp.s:
+	$(MAKE) -f CMakeFiles/Airport.dir/build.make CMakeFiles/Airport.dir/flight.cpp.s
+.PHONY : flight.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -150,6 +177,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/Airport.dir/build.make CMakeFiles/Airport.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+passenger.o: passenger.cpp.o
+
+.PHONY : passenger.o
+
+# target to build an object file
+passenger.cpp.o:
+	$(MAKE) -f CMakeFiles/Airport.dir/build.make CMakeFiles/Airport.dir/passenger.cpp.o
+.PHONY : passenger.cpp.o
+
+passenger.i: passenger.cpp.i
+
+.PHONY : passenger.i
+
+# target to preprocess a source file
+passenger.cpp.i:
+	$(MAKE) -f CMakeFiles/Airport.dir/build.make CMakeFiles/Airport.dir/passenger.cpp.i
+.PHONY : passenger.cpp.i
+
+passenger.s: passenger.cpp.s
+
+.PHONY : passenger.s
+
+# target to generate assembly for a file
+passenger.cpp.s:
+	$(MAKE) -f CMakeFiles/Airport.dir/build.make CMakeFiles/Airport.dir/passenger.cpp.s
+.PHONY : passenger.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -159,9 +213,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Airport"
+	@echo "... flight.o"
+	@echo "... flight.i"
+	@echo "... flight.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... passenger.o"
+	@echo "... passenger.i"
+	@echo "... passenger.s"
 .PHONY : help
 
 
