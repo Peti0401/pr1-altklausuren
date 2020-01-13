@@ -101,7 +101,6 @@ try {
   cout << '\n' << work << '\n';
 
 // Dekommentieren fuer Zusatz ready
-/*
   cout << "\nAdditional task ready\n";
   try {
     f.ready({});
@@ -128,10 +127,8 @@ try {
   cout << f.ready({10, 10, 10}) << work.ready({10, 10, 10}) << '\n';
   cout << work.ready({4, 10, 10}) << work.ready({10, 2, 10});
   cout << work.ready({10, 10, 0}) << work.ready({6, 3, 1}) << '\n';
-*/
 
 // Dekommentieren fuer Zusatz pretty_print
-/*
   cout << "\nAdditional task pretty_print\n";
   cf.pretty_print();
   cout << '\n';
@@ -141,7 +138,6 @@ try {
   cout << '\n';
   tiny.pretty_print();
   cout << '\n';
-*/
 }
 catch (exception& e) {
   cout << "Unexpected exception: " << e.what() << '\n';

@@ -3,4 +3,4 @@ project(Airport)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(Airport main.cpp flight.cpp passenger.cpp category.h)
+add_executable(Airport main.cpp flight.h flight.cpp passenger.h passenger.cpp category.h)
