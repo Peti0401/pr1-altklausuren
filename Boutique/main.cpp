@@ -58,6 +58,7 @@ try {
   for (const auto& g : v)
     cout << g << " " << g.available() << " " << g.by_designer({Designer::Unknown, Designer::Chanel, Designer::Unknown}) << '\n';
 
+
   cout << "\nClass Boutique:\n";
   try {
     Boutique b({});
@@ -75,7 +76,7 @@ try {
   cout << Boutique{cb.selection({Designer::Unknown, Designer::Prada})} << '\n';
   
 // Dekommentieren fuer Zusatz buy
-/*
+
   cout << "\nAdditional task buy\n";
   Garment g1{v.at(4)};
   cout << g1.buy("Susanne") << g1.buy("Susanne") << '\n';
@@ -86,10 +87,10 @@ try {
   g1 = v.at(2);
   cout << g1.buy("Maria") << '\n';
   cout << g1 << '\n';
-*/
+
 
 // Dekommentieren fuer Zusatz sale
-/*
+
   cout << "\nAdditional task sale\n";
   Boutique b1{cb};
   try {
@@ -120,7 +121,7 @@ try {
   catch (runtime_error& e) {
     cout << "catch 8\n";
   }
-*/
+
 
 }
 catch (exception& e) {
