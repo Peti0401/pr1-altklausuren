@@ -1,8 +1,8 @@
-#Executables
+# Executables
 *.exe
 *.app
 *.out
 
-# Airport gitignore
-/Airport/.idea/
-/Airport/cmake-build-debug/
+# Ignoring .idea and build folder in all child dirs
+/*/.idea/
+/*/cmake-build-debug/
