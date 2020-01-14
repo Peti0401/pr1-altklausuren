@@ -10,6 +10,6 @@ Beachten Sie, dass verschiedene Methoden auf einfachere Weise implementiert werd
 #include <vector>
 ```
 
-Beachten Sie auch, dass die Datei main.cpp vom Ersteller der Prüfung vorab geschrieben wurde. Es enthält Testcode sowie die gewünschte Ausgabe in den Kommentaren.
+Beachten Sie auch, dass die Datei main.cpp vom Ersteller der Prüfung vorab geschrieben wurde. Es enthält Testcode sowie die erwartete Ausgabe in den Kommentaren.
 
-Es wird einige Inkonsistenzen bei der Verwendung von case-conventions geben, da in vielen Übungen snake_case und camelCase gleichzeitig verwendet werden.
+Die Richtigkeit der Lösungen wird überprüft, indem die Ausgabe und die erwartete Ausgabe mit dem folgenden Online-Tool verglichen werden: https://www.diffchecker.com/
