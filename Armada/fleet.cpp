@@ -15,8 +15,8 @@ Fleet::Fleet(const string& name, const Faction& faction, const vector<Spaceship>
 bool Fleet::add(const vector<Spaceship>& ships) {
     if (ships.empty()) throw runtime_error("List of ships to add cannot be empty!");
     if (!Spaceship::same_faction(ships, faction)) return false;
-
-    for (const auto& ship : ships) this->ships.insert(this->ships.begin(), ship);
+    size_t index = 0; // the iterator should be incremented on insertion
+    for (const auto& ship : ships) this->ships.insert((this->ships.begin() + index++), ship);
     return true;
 }
 
