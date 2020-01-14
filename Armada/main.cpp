@@ -97,7 +97,6 @@ int main(){
   cout << tie << '\n';
   cerr << tiei << '\n';
 
-
   // Fleet
   try{
     cout << Fleet{"",Faction::Rebels,{}};
@@ -161,7 +160,7 @@ int main(){
   //Basisfunktionalität Ende
 
   //Zusatz für 10 Punkte
-  /*
+
   cout << "\n\nZusatz 10 Punkte" << '\n';
   {
     try{
@@ -178,11 +177,10 @@ int main(){
     vi = imp_fleet.extremes();
     cout << vi[0] << '\n' << vi[1] << '\n';
   }
-  */
 
 
   //Zusatz für 15 Punkte
-  /*
+
   cout << "\n\nZusatz 15 Punkte" << "\n";
   {
     try{
@@ -210,7 +208,6 @@ int main(){
     }
 
   }
-  */
 
   return 0;
 }
