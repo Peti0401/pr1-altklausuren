@@ -63,6 +63,7 @@ int main() {
 	cout << a2.cost(Station::Park,Station::Parliament) << " " << a2.cost(Station::Parliament,Station::Park) << '\n';
 	cout << a1.cost(Station::University,Station::Park) << " " << a2.cost(Station::Bar,Station::Bar) << '\n';
 
+
 	cout << "\n\nFleet\n";
 	try {
 		cout << Fleet{"Hans",{}};
@@ -84,15 +85,15 @@ int main() {
 	cout << f << '\n';
 
 	//Dekommentieren fuer Zusatz has_loop
-	/*
+
 	cout << "\n\nZusatz 10 Punkte\n";
 	cout << Fleet{"Loop1", cf.has_loop()} << '\n';
 	cout << Fleet{"Loop2", f.has_loop()} << '\n';
 	cout << Fleet{"Loop3", Fleet{"Flash",{Bus{"Comfort",{Station::Bar,Station::Parliament,Station::University},20},a1}}.has_loop()} << '\n';
-	*/
+
 
 	//Dekommentieren fuer Zusatz cheapest_connection
-	/*
+
 	cout << "\n\nZusatz 15 Punkte\n";
 	cout << Fleet{"Cheap1", f.cheapest_connection(Station::University,Station::Bar)} << '\n';
 	cout << Fleet{"Cheap2", f.cheapest_connection(Station::Bar,Station::Parliament)} << '\n';
@@ -101,10 +102,9 @@ int main() {
 	cout << Fleet{"Cheap5", f.cheapest_connection(Station::Park,Station::Parliament)} << '\n';
 	Fleet insane{"Insane",{a2,Bus{"Comfort",{Station::Bar,Station::Parliament,Station::University},20},a2,a2}};
 	cout << Fleet{"Cheap6", insane.cheapest_connection(Station::Bar,Station::Parliament)} << '\n';
-	*/
+
 	return 0;
 }
-
 
 /** Erwartete Ausgabe
 Basisfunktionalitaet
