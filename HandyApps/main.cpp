@@ -82,7 +82,7 @@ try {
   cout << '\n' << cell << '\n';
 
 // Dekommentieren fuer Zusatz deinstall
-/*
+
   cout << "\nAddition deinstall\n";
   Cellular work1{cell};
   for (const auto& a : work1.deinstall(Category::Gadget))
@@ -97,10 +97,10 @@ try {
   for (const auto& a : work1.deinstall(Category::Social))
     cout << a << ' ';
   cout << '\n' << work1 << '\n';
-*/
+
 
 // Dekommentieren fuer Zusatz optimize
-/*
+
   cout << "\nAddition optimize\n";
   Cellular work2{cell};
   cout << work2.optimize() << '\n';
@@ -111,7 +111,7 @@ try {
     work2.install(apps.at(i));
   cout << work2.optimize() << '\n';
   cout << work2 << '\n';
-*/
+
 }
 catch (exception& e) {
   cout << "Unexpected exception: " << e.what() << '\n';
