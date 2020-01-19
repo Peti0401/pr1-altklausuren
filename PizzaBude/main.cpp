@@ -68,14 +68,14 @@ try {
     cerr << p << '\n';
 
 // Dekommentieren fuer Zusatz allergenes
-/*
+
   cout << "\nAdditional task allergenes\n";
   for (const auto& p : vp)
     cout << p.allergenes() << '\n';
-*/
+
 
 // Dekommentieren fuer Zusatz accommodate
-/*
+
   cout << "\nAdditional task accommodate\n";
   Pizza test{vp.at(0)};
   test.accommodate("ABDGR");
@@ -96,7 +96,7 @@ try {
     cout << "catch 6\n";
   }
   cout << test << '\n';
-*/
+
 }
 catch (exception& e) {
   cout << "Unexpected exception: " << e.what() << '\n';
@@ -108,6 +108,7 @@ return 0;
 }
 
 /* Erwartete Ausgabe
+Class Topping:
 catch 1
 catch 2
 Prosciutto! Ham Frutti di mare (A, B, D, R)! Mozzarella (G) Olives Mushrooms Garlic (G, M) Salami (M) Bacon Peppers (F, M) Thuna (D, F) Cheese (G) Tomato sauce Sunflower seed (A, E, F, G, H, M, N) Onions Escargots (R)!
