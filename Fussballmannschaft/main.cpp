@@ -88,7 +88,7 @@ int main() {
   cout << barcelona << '\n';
 
   //Dekommentieren fuer Zusatz aufstellung
-  /*
+
   cout << "\nZusatz 10 Punkte\n";
   try {
     cout << barcelona.aufstellung() << '\n';
@@ -127,10 +127,9 @@ int main() {
   catch (runtime_error&) {
     cout << "Error 10\n";
   }
-  */
 
   //Dekommentieren fuer Zusatz entlassen
-  /*
+
   cout << "\nZusatz 15 Punkte\n";
   vector<Spieler> result;
   barcelona.engagieren({umtiti,alba,digne,gomes,paulinho,roberto,stegen});
@@ -159,7 +158,6 @@ int main() {
   for (const auto& s : result)
     cout << s << " ";
   cout << '\n';
-  */
 
   return 0;
 }
